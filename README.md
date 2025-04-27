@@ -1,6 +1,6 @@
 # Computer-based Recognition of Arabidopsis thaliana Ecotypes
 
-This repository provides the full source code developed to classify various A. thaliana ecotypes using an RGB image analysis pipeline. This pipeline operates with a large volume of data collected by an X-Y indoor HTPP system.
+This repository provides the full source code developed to classify various A. thaliana ecotypes using an RGB image analysis pipeline. This pipeline operates with a large volume of data collected by an X-Y indoor HTPP system...
 
 ![image](images/img1_cbr.png)
 
