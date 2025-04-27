@@ -1,0 +1,29 @@
+# Core libraries
+numpy
+pandas
+matplotlib
+opencv-python
+Pillow
+
+# PyTorch (install appropriate version based on your CUDA setup)
+torch
+
+# Detectron2 (install from source or official wheel)
+# Example install for CUDA 11.8:
+# pip install 'git+https://github.com/facebookresearch/detectron2.git'
+
+# YOLO (Ultralytics version)
+ultralytics
+
+# Hydra and OmegaConf (for configuration)
+hydra-core
+omegaconf
+
+# Local or custom modules (must be locally available)
+# - dataset
+# - masks
+# - sam2.build_sam
+# - saveload
+# - training.dataset.vos_raw_dataset
+
+# If using custom code like "build_sam2", make sure the module path is accessible (e.g., via PYTHONPATH)

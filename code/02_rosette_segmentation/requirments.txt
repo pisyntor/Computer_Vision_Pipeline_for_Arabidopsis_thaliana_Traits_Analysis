@@ -1,0 +1,24 @@
+# Core scientific stack
+numpy
+pandas
+scipy
+matplotlib
+opencv-python
+Pillow
+tqdm
+scikit-learn
+imgaug
+seaborn
+
+# PyTorch and related
+torch
+torchvision
+torchaudio
+torchmetrics
+segmentation-models-pytorch
+monai
+
+# Transformers & datasets
+transformers
+datasets
+pickle-mixin  
