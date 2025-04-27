@@ -27,7 +27,7 @@ A – Data collection; B – Data preparation using auto-tray and auto-pot cropp
 
 ## Structure
 The fundamental filesystem structure resembles the tree shown below. Essentially, we have two main folders: ```code```.
-```
+```console
 code
 ├───01_colour_n_area_analysis
 │   ├───01_pre_processing
