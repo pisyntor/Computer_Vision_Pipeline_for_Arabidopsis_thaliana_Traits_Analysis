@@ -1,17 +1,17 @@
-# Computer-based Recognition of Arabidopsis thaliana Ecotypes
+# Computer Vision Pipeline for Quantitative Analysis of Morphological Traits in _Arabidopsis thaliana_ using RGB images
 
-This repository provides the full source code developed to classify various A. thaliana ecotypes using an RGB image analysis pipeline. This pipeline operates with a large volume of data collected by an X-Y indoor HTPP system...
+This repository provides the full source code used for the development of an RGB-based image pipeline for the extraction and analysis of morphological traits in A. thaliana at both the rosette and leaf levels.
 
 ![image](images/img1_cbr.png)
 
-## Description
+## Description   
 
-The RGB image analysis pipeline consists of several elements (see Figure 1):
-A – Collection of RGB image data in an indoor HTPP environment, B – Preparation and organization of the data using auto-pot and auto-cropping procedures, C – Assessment of complexity (variability) within generated datasets, D – Data re-definition sub-component composed of GUI-based image processing and three levels of transformation, E – Partitioning data into training, validation, and test sets, F – Data augmentation using random affine transformations, G – Auto-optimization sub-system that performs single-image and sequence-of-images classification, H – Storage of the best-performing deep learning models, I –Inferencing on test data as well as J – externally sourced data,  K – Visualization of critical regions using heat and saliency maps.
+The RGB image analysis pipeline consists of several elements (see Figure 1): 
+A – Data collection; B – Data preparation using auto-tray and auto-pot cropping; C – Annotation of whole plant canopies and individual leaves; D – Analysis of ecotype replicates based on growth and plant/soil colour distribution; E – Data splitting; F – Data augmentation based on affine transformations and colour jittering; G – Deep Learning-based rosette segmentation; H – Deep learning-based leaf segmentation and tracking; I – Example of basic geometrical plant traits used to calculate basic and derived numerical traits; J – Example of basic geometrical leaf traits used to calculate basic and derived numerical traits; K – Storage of extracted numerical plant- and leaf- level traits for each dataset; L – K-means clustering on the PCA-transformed datasets. 
 
 ![image](images/rgb_pipeline_2.png)
 
-**Figure 1**. The complete workflow of the developed RGB image analysis pipeline for the recognition of various Arabidopsis ecotypes.
+**Figure 1**. The complete workflow of the developed RGB image analysis pipeline for extracting and analysing various morphological traits of _A. thaliana_ plants
 
 ## Requirements
 - [python>=3.7](https://www.python.org/downloads/)
