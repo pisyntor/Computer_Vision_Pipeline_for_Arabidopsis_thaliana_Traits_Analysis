@@ -49,7 +49,9 @@ code
 │   └───Properties
 │
 ├───05_leaf_traits_extraction
-│    └───01_leaf_traits_calcualtion.ipynb
+│    ├───01_leaf_traits_calculations.ipynb
+│    ├───02_calculated_leaf_tratis_plots.ipynb
+│    └───03_leaf_excel_data.ipynb
 │
 └───06_clustering
     ├───01_plant_datastes_clust1.py
