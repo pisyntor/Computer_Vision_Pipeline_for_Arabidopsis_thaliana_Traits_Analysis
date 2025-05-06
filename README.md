@@ -9,7 +9,7 @@ This repository provides the full source code used for the development of an RGB
 The RGB image analysis pipeline consists of several elements (see Figure 1): 
 A – Data collection; B – Data preparation using auto-tray and auto-pot cropping; C – Annotation of whole plant canopies and individual leaves; D – Analysis of ecotype replicates based on growth and plant/soil colour distribution; E – Data splitting; F – Data augmentation based on affine transformations and colour jittering; G – Deep Learning-based rosette segmentation; H – Deep learning-based leaf segmentation and tracking; I – Example of basic geometrical plant traits used to calculate basic and derived numerical traits; J – Example of basic geometrical leaf traits used to calculate basic and derived numerical traits; K – Storage of extracted numerical plant- and leaf- level traits for each dataset; L – K-means clustering on the PCA-transformed datasets. 
 
-![image](images/rgb_pipeline2.png)
+![image](images/rgb_pipeline2a.png)
 
 **Figure 1**. The complete workflow of the developed RGB image analysis pipeline for extracting and analysing various morphological traits of _A. thaliana_ plants
 
